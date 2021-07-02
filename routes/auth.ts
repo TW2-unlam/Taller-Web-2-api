@@ -63,7 +63,17 @@ router.post("/login", (req: any, res: any) => {
 
     cognitoUser.authenticateUser(authenticationDetails, {
         onSuccess: data => {
-            res.json(data.getIdToken().getJwtToken());
+            var user_data = {
+                name: data.getIdToken().decodePayload().name,
+                family_name: data.getIdToken().decodePayload().family_name,
+                email: data.getIdToken().decodePayload().email,
+            }
+
+            var response_data = {
+                jwt: data.getIdToken().getJwtToken(),
+                user: user_data
+            }
+            res.json( response_data );
         },
         onFailure: err => {
             console.log(err);
