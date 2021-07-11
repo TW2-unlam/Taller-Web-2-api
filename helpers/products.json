@@ -88,7 +88,7 @@
     }
   ],
   "description": "The Witcher: Wild Hunt es un RPG de mundo abierto basado en la narrativa y ambientado en un universo de fantasía visualmente impresionante, repleto de decisiones significativas y consecuencias trascendentales. En The Witcher, te pones en la piel del cazador de monstruos profesional Geralt de Rivia, y tienes la tarea de encontrar a la niña de la profecía en un vasto mundo abierto repleto de ciudades de mercaderes, islas piratas, peligrosos pasos de montaña y cuevas olvidadas para explorar.",
-  "price": 95.99
+  "price": 96
 },{
   "_id": {
     "$oid": "60d2623398745d4757e9fd6a"
@@ -263,7 +263,7 @@
     }
   ],
   "description": "Counter-Strike: Global Offensive (CS: GO) ampliará la jugabilidad de acción por equipos que fue pionera en su lanzamiento hace 12 años. CS: GO incluirá nuevos mapas, personajes y armas y ofrecerá versiones actualizadas del contenido clásico de CS (de_dust2, etc.). Además, CS: GO introducirá nuevos modos de juego, matchmaking, marcadores y mucho más. Counter-Strike cogió la industria de los videojuegos por sorpresa cuando, contra todo pronóstico, el MOD se convirtió en el juego de acción online para PC más jugado del mundo tras su lanzamiento en agosto de 1999, dijo Doug Lombardi de Valve. En los últimos 12 años, ha continuado siendo uno de los juegos más jugados del mundo, el protagonista de los torneos de videojuegos competitivos y se han vendido más de 25 millones de copias por todo el mundo. CS: GO promete ampliar la aclamada jugabilidad de CS y ofrecerla a los jugadores de PC, así como a los de las consolas de última generación y Mac.",
-  "price": "Free to play"
+  "price": 0
 },{
   "_id": {
     "$oid": "60d2642198745d4757e9fd70"
