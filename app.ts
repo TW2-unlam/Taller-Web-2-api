@@ -9,7 +9,9 @@ require('./models/Product.js');
 const authRoutes = require('./routes/auth.ts');
 const api = require('./routes/api.ts');
 
-mongoose.connect(`mongodb://127.0.0.1:27017/${process.env.DB_NAME}`, {
+
+//mongoose.connect(`mongodb://127.0.0.1:27017/${process.env.DB_NAME}`, {
+mongoose.connect(`${process.env.DB_CONNECTION}`, {
     useUnifiedTopology: true,
     useNewUrlParser: true,
     useCreateIndex: true,
